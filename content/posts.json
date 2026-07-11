@@ -1,1 +1,889 @@
-{ "items": [] }
+{
+  "projects": [
+    {
+      "title": "Uncut Gems",
+      "client": "A24 / Netflix",
+      "director": "Josh & Benny Safdie",
+      "year": 2019,
+      "type": "Movie",
+      "rating": 4.5,
+      "rt": "92%",
+      "lb": "4.1 / 5",
+      "duration": "2h 15m",
+      "released": "December 13, 2019",
+      "synopsis": "A fast-talking New York jeweler with a bottomless gambling habit bets everything on a rare Ethiopian opal, juggling debts, family and collectors in a relentless two-hour panic attack. Anxiety rendered as pure cinema.",
+      "trailer": "https://www.youtube.com/watch?v=vTfJp2Ts9X8",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 220,
+      "images": [
+        {
+          "label": "howard ratner portrait",
+          "width": 210
+        },
+        {
+          "label": "the black opal",
+          "width": 260
+        },
+        {
+          "label": "kevin garnett in the store",
+          "width": 285
+        },
+        {
+          "label": "jewelry counter",
+          "width": 300
+        },
+        {
+          "label": "julia neon apartment",
+          "width": 195
+        },
+        {
+          "label": "howard on the phone",
+          "width": 245
+        },
+        {
+          "label": "the weeknd nightclub",
+          "width": 225
+        },
+        {
+          "label": "celtics playoff game",
+          "width": 300
+        },
+        {
+          "label": "howard & garnett handshake",
+          "width": 255
+        },
+        {
+          "label": "the mantrap door",
+          "width": 175
+        }
+      ]
+    },
+    {
+      "title": "Fitzcarraldo",
+      "client": "Werner Herzog Filmproduktion",
+      "director": "Werner Herzog",
+      "year": 1982,
+      "type": "Movie",
+      "rating": 4.5,
+      "rt": "95%",
+      "lb": "4.2 / 5",
+      "duration": "2h 38m",
+      "released": "March 4, 1982",
+      "synopsis": "An obsessive dreamer hauls a 320-ton steamship over a mountain in the Peruvian Amazon to fund an opera house in the jungle. A monument to mad ambition, filmed for real.",
+      "trailer": "https://www.youtube.com/watch?v=PfMtZljzr0k",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "fitzcarraldo portrait",
+          "width": 220
+        },
+        {
+          "label": "the steamship",
+          "width": 300
+        },
+        {
+          "label": "ship up the mountain",
+          "width": 320
+        },
+        {
+          "label": "amazon river",
+          "width": 300
+        },
+        {
+          "label": "opera dream",
+          "width": 240
+        },
+        {
+          "label": "jungle camp",
+          "width": 260
+        },
+        {
+          "label": "molly and fitz",
+          "width": 200
+        },
+        {
+          "label": "indigenous crew",
+          "width": 300
+        },
+        {
+          "label": "gramophone on deck",
+          "width": 190
+        },
+        {
+          "label": "rapids",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Akira",
+      "client": "Tokyo Movie Shinsha",
+      "director": "Katsuhiro Otomo",
+      "year": 1988,
+      "type": "Anime",
+      "rating": 5,
+      "rt": "90%",
+      "lb": "4.3 / 5",
+      "duration": "2h 04m",
+      "released": "July 16, 1988",
+      "synopsis": "In a neon Neo-Tokyo, a biker gang member develops catastrophic psychic powers that threaten to level the city again. The landmark that redefined what animation could do.",
+      "trailer": "https://www.youtube.com/watch?v=nDVGw3Hidj4",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "kaneda’s bike",
+          "width": 300
+        },
+        {
+          "label": "neo-tokyo skyline",
+          "width": 320
+        },
+        {
+          "label": "tetsuo awakens",
+          "width": 220
+        },
+        {
+          "label": "bike gang chase",
+          "width": 300
+        },
+        {
+          "label": "the espers",
+          "width": 190
+        },
+        {
+          "label": "stadium ruins",
+          "width": 300
+        },
+        {
+          "label": "tetsuo transformation",
+          "width": 240
+        },
+        {
+          "label": "kaneda jacket",
+          "width": 200
+        },
+        {
+          "label": "akira containment",
+          "width": 260
+        },
+        {
+          "label": "explosion",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Ping Pong the Animation",
+      "client": "Tatsunoko Production",
+      "director": "Masaaki Yuasa",
+      "year": 2014,
+      "type": "Anime",
+      "rating": 4,
+      "rt": "100%",
+      "lb": "4.4 / 5",
+      "duration": "11 × 22m",
+      "released": "June 12, 2014",
+      "synopsis": "Two childhood friends chase very different dreams through the world of competitive table tennis. Kinetic, elastic and unexpectedly tender — a sports story about what a hero is.",
+      "trailer": "https://www.youtube.com/watch?v=kzz2P8pw16A",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 200,
+      "images": [
+        {
+          "label": "smile serves",
+          "width": 220
+        },
+        {
+          "label": "peco grins",
+          "width": 210
+        },
+        {
+          "label": "the table",
+          "width": 300
+        },
+        {
+          "label": "match rally",
+          "width": 300
+        },
+        {
+          "label": "robot vs hero",
+          "width": 240
+        },
+        {
+          "label": "riverbank",
+          "width": 260
+        },
+        {
+          "label": "coach kong",
+          "width": 190
+        },
+        {
+          "label": "kaio training",
+          "width": 300
+        },
+        {
+          "label": "the hero flies",
+          "width": 220
+        },
+        {
+          "label": "final point",
+          "width": 280
+        }
+      ]
+    },
+    {
+      "title": "The Holy Mountain",
+      "client": "Producciones Panicas",
+      "director": "Alejandro Jodorowsky",
+      "year": 1973,
+      "type": "Movie",
+      "rating": 3.5,
+      "rt": "86%",
+      "lb": "4.1 / 5",
+      "duration": "1h 54m",
+      "released": "November 27, 1973",
+      "synopsis": "A thief is initiated by an alchemist into a group of powerful figures seeking the secret of immortality atop a sacred mountain. A blasphemous, dazzling fever dream.",
+      "trailer": "https://www.youtube.com/watch?v=XMoWiv2wJlU",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 214,
+      "images": [
+        {
+          "label": "the alchemist",
+          "width": 220
+        },
+        {
+          "label": "the thief",
+          "width": 210
+        },
+        {
+          "label": "golden room",
+          "width": 300
+        },
+        {
+          "label": "the tower",
+          "width": 190
+        },
+        {
+          "label": "planetary disciples",
+          "width": 300
+        },
+        {
+          "label": "ritual procession",
+          "width": 300
+        },
+        {
+          "label": "wax christs",
+          "width": 240
+        },
+        {
+          "label": "the pantheon bar",
+          "width": 260
+        },
+        {
+          "label": "ascent",
+          "width": 300
+        },
+        {
+          "label": "zoom back camera",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Doomed Megalopolis",
+      "client": "Toei Animation",
+      "director": "Rintaro",
+      "year": 1991,
+      "type": "Anime",
+      "rating": 2.5,
+      "rt": "78%",
+      "lb": "3.6 / 5",
+      "duration": "3h 00m",
+      "released": "April 21, 1991",
+      "synopsis": "A vengeful sorcerer conspires to raze imperial Tokyo by awakening the vengeful spirit that sleeps beneath it. Occult horror sprawling across decades of the city’s history.",
+      "trailer": "https://www.youtube.com/watch?v=sZ6bqDc4bZk",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 206,
+      "images": [
+        {
+          "label": "kato the sorcerer",
+          "width": 220
+        },
+        {
+          "label": "imperial tokyo",
+          "width": 300
+        },
+        {
+          "label": "oni summoning",
+          "width": 240
+        },
+        {
+          "label": "yukari possessed",
+          "width": 200
+        },
+        {
+          "label": "great kanto quake",
+          "width": 320
+        },
+        {
+          "label": "subway ritual",
+          "width": 260
+        },
+        {
+          "label": "feng shui map",
+          "width": 190
+        },
+        {
+          "label": "guardian spirit",
+          "width": 300
+        },
+        {
+          "label": "burning city",
+          "width": 300
+        },
+        {
+          "label": "kato returns",
+          "width": 220
+        }
+      ]
+    },
+    {
+      "title": "Antichrist",
+      "client": "Zentropa",
+      "director": "Lars von Trier",
+      "year": 2009,
+      "type": "Movie",
+      "rating": 3,
+      "rt": "49%",
+      "lb": "3.5 / 5",
+      "duration": "1h 48m",
+      "released": "October 23, 2009",
+      "synopsis": "After the loss of their child, a grieving couple retreat to a cabin called Eden, where nature and grief turn monstrous. Beautiful, brutal and impossible to shake.",
+      "trailer": "https://www.youtube.com/watch?v=n7tagHhyC_E",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "she and he",
+          "width": 260
+        },
+        {
+          "label": "eden cabin",
+          "width": 300
+        },
+        {
+          "label": "the forest",
+          "width": 300
+        },
+        {
+          "label": "prologue snow",
+          "width": 220
+        },
+        {
+          "label": "the three beggars",
+          "width": 240
+        },
+        {
+          "label": "fox in the woods",
+          "width": 200
+        },
+        {
+          "label": "grief therapy",
+          "width": 260
+        },
+        {
+          "label": "acorns on the roof",
+          "width": 300
+        },
+        {
+          "label": "chaos reigns",
+          "width": 190
+        },
+        {
+          "label": "epilogue",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Perfect Blue",
+      "client": "Madhouse",
+      "director": "Satoshi Kon",
+      "year": 1997,
+      "type": "Anime",
+      "rating": 4.5,
+      "rt": "84%",
+      "lb": "4.3 / 5",
+      "duration": "1h 21m",
+      "released": "February 28, 1998",
+      "synopsis": "A pop idol quits her group to become an actress and loses her grip on where her image ends and she begins. A psychological thriller that blurs reality and performance.",
+      "trailer": "https://www.youtube.com/watch?v=OJ4iZ7h2Vc4",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 206,
+      "images": [
+        {
+          "label": "mima portrait",
+          "width": 210
+        },
+        {
+          "label": "cham concert",
+          "width": 300
+        },
+        {
+          "label": "the mirror",
+          "width": 220
+        },
+        {
+          "label": "pink fish tank",
+          "width": 240
+        },
+        {
+          "label": "me-mania",
+          "width": 190
+        },
+        {
+          "label": "photo shoot",
+          "width": 300
+        },
+        {
+          "label": "rooftop double",
+          "width": 260
+        },
+        {
+          "label": "apartment",
+          "width": 200
+        },
+        {
+          "label": "illusion of self",
+          "width": 300
+        },
+        {
+          "label": "who are you",
+          "width": 260
+        }
+      ]
+    },
+    {
+      "title": "Stalker",
+      "client": "Mosfilm",
+      "director": "Andrei Tarkovsky",
+      "year": 1979,
+      "type": "Movie",
+      "rating": 5,
+      "rt": "100%",
+      "lb": "4.5 / 5",
+      "duration": "2h 42m",
+      "released": "May 25, 1979",
+      "synopsis": "A guide leads a writer and a scientist through a forbidden Zone to a room that grants one’s deepest desire. A slow, hypnotic pilgrimage through faith and doubt.",
+      "trailer": "https://www.youtube.com/watch?v=TGkbylNQb2Y",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 214,
+      "images": [
+        {
+          "label": "the stalker",
+          "width": 220
+        },
+        {
+          "label": "the zone",
+          "width": 320
+        },
+        {
+          "label": "the writer",
+          "width": 200
+        },
+        {
+          "label": "the professor",
+          "width": 200
+        },
+        {
+          "label": "rail trolley",
+          "width": 300
+        },
+        {
+          "label": "flooded room",
+          "width": 300
+        },
+        {
+          "label": "the meat grinder",
+          "width": 240
+        },
+        {
+          "label": "the room",
+          "width": 190
+        },
+        {
+          "label": "dunes of sand",
+          "width": 300
+        },
+        {
+          "label": "monika the dog",
+          "width": 260
+        }
+      ]
+    },
+    {
+      "title": "Come and See",
+      "client": "Mosfilm",
+      "director": "Elem Klimov",
+      "year": 1985,
+      "type": "Movie",
+      "rating": 5,
+      "rt": "96%",
+      "lb": "4.5 / 5",
+      "duration": "2h 22m",
+      "released": "September 3, 1985",
+      "synopsis": "A boy joins the partisan resistance in occupied Belarus and witnesses atrocity after atrocity until his face itself becomes a record of the war. Perhaps the most harrowing war film ever made.",
+      "trailer": "https://www.youtube.com/watch?v=cD2gjEHRIS8",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "florya’s face",
+          "width": 220
+        },
+        {
+          "label": "belarus forest",
+          "width": 300
+        },
+        {
+          "label": "the partisans",
+          "width": 260
+        },
+        {
+          "label": "burning village",
+          "width": 320
+        },
+        {
+          "label": "girl in the marsh",
+          "width": 200
+        },
+        {
+          "label": "aerial bombers",
+          "width": 300
+        },
+        {
+          "label": "cow in the field",
+          "width": 240
+        },
+        {
+          "label": "the church",
+          "width": 190
+        },
+        {
+          "label": "thousand-yard stare",
+          "width": 260
+        },
+        {
+          "label": "the portrait",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Tampopo",
+      "client": "Itami Productions",
+      "director": "Juzo Itami",
+      "year": 1985,
+      "type": "Movie",
+      "rating": 4,
+      "rt": "100%",
+      "lb": "4.2 / 5",
+      "duration": "1h 54m",
+      "released": "November 23, 1985",
+      "synopsis": "A trucker helps a widow perfect her ramen shop in this playful \"ramen western,\" braided with vignettes about the sensual, absurd relationship between people and food.",
+      "trailer": "https://www.youtube.com/watch?v=8yUxYBpZTZY",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 200,
+      "images": [
+        {
+          "label": "ramen bowl",
+          "width": 240
+        },
+        {
+          "label": "tampopo’s shop",
+          "width": 260
+        },
+        {
+          "label": "goro in the truck",
+          "width": 200
+        },
+        {
+          "label": "the noodle masters",
+          "width": 300
+        },
+        {
+          "label": "egg yolk kiss",
+          "width": 220
+        },
+        {
+          "label": "white-suited man",
+          "width": 190
+        },
+        {
+          "label": "street kitchen",
+          "width": 300
+        },
+        {
+          "label": "perfect broth",
+          "width": 240
+        },
+        {
+          "label": "oyster girl",
+          "width": 200
+        },
+        {
+          "label": "final slurp",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Paprika",
+      "client": "Madhouse",
+      "director": "Satoshi Kon",
+      "year": 2006,
+      "type": "Anime",
+      "rating": 4.5,
+      "rt": "84%",
+      "lb": "4.1 / 5",
+      "duration": "1h 30m",
+      "released": "November 25, 2006",
+      "synopsis": "When a device that lets therapists enter patients’ dreams is stolen, the boundary between dream and reality collapses. Satoshi Kon’s final feature is a riot of color and invention.",
+      "trailer": "https://www.youtube.com/watch?v=ePr8biIT4iA",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 206,
+      "images": [
+        {
+          "label": "paprika flies",
+          "width": 220
+        },
+        {
+          "label": "the parade",
+          "width": 320
+        },
+        {
+          "label": "dc mini",
+          "width": 190
+        },
+        {
+          "label": "dream circus",
+          "width": 300
+        },
+        {
+          "label": "butterfly mask",
+          "width": 220
+        },
+        {
+          "label": "atsuko portrait",
+          "width": 200
+        },
+        {
+          "label": "hallway dream",
+          "width": 260
+        },
+        {
+          "label": "doll army",
+          "width": 300
+        },
+        {
+          "label": "inside the dream",
+          "width": 240
+        },
+        {
+          "label": "neon tokyo",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Suspiria",
+      "client": "Seda Spettacoli",
+      "director": "Dario Argento",
+      "year": 1977,
+      "type": "Movie",
+      "rating": 3.5,
+      "rt": "94%",
+      "lb": "3.9 / 5",
+      "duration": "1h 32m",
+      "released": "February 1, 1977",
+      "synopsis": "An American dancer arrives at a German ballet academy that hides a witches’ coven. A delirium of color, sound and dread — horror as pure sensory overload.",
+      "trailer": "https://www.youtube.com/watch?v=SicJst9313c",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "suzy arrives",
+          "width": 220
+        },
+        {
+          "label": "the academy",
+          "width": 300
+        },
+        {
+          "label": "red corridor",
+          "width": 260
+        },
+        {
+          "label": "stained glass",
+          "width": 200
+        },
+        {
+          "label": "maggots",
+          "width": 190
+        },
+        {
+          "label": "the coven",
+          "width": 300
+        },
+        {
+          "label": "blue room",
+          "width": 240
+        },
+        {
+          "label": "barbed wire",
+          "width": 300
+        },
+        {
+          "label": "helena markos",
+          "width": 200
+        },
+        {
+          "label": "the storm",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Belladonna of Sadness",
+      "client": "Mushi Production",
+      "director": "Eiichi Yamamoto",
+      "year": 1973,
+      "type": "Anime",
+      "rating": 1.5,
+      "rt": "75%",
+      "lb": "3.8 / 5",
+      "duration": "1h 33m",
+      "released": "June 30, 1973",
+      "synopsis": "A wronged peasant woman makes a pact with the devil in this hand-painted, watercolor erotic epic. A hypnotic, transgressive landmark of adult animation.",
+      "trailer": "https://www.youtube.com/watch?v=3lPHksuk9-o",
+      "poster": "",
+      "tone": "warm",
+      "rowHeight": 214,
+      "images": [
+        {
+          "label": "jeanne portrait",
+          "width": 210
+        },
+        {
+          "label": "watercolor pan",
+          "width": 320
+        },
+        {
+          "label": "the devil",
+          "width": 200
+        },
+        {
+          "label": "village dance",
+          "width": 300
+        },
+        {
+          "label": "blooming field",
+          "width": 240
+        },
+        {
+          "label": "the pact",
+          "width": 190
+        },
+        {
+          "label": "psychedelic bloom",
+          "width": 300
+        },
+        {
+          "label": "the plague",
+          "width": 260
+        },
+        {
+          "label": "jeanne rises",
+          "width": 220
+        },
+        {
+          "label": "final tableau",
+          "width": 300
+        }
+      ]
+    },
+    {
+      "title": "Aguirre, the Wrath of God",
+      "client": "Werner Herzog Filmproduktion",
+      "director": "Werner Herzog",
+      "year": 1972,
+      "type": "Movie",
+      "rating": 4,
+      "rt": "97%",
+      "lb": "4.2 / 5",
+      "duration": "1h 33m",
+      "released": "December 29, 1972",
+      "synopsis": "A conquistador leads a doomed expedition down the Amazon in search of El Dorado, his ambition curdling into madness. Herzog and Kinski’s first and most feverish collaboration.",
+      "trailer": "https://www.youtube.com/watch?v=hDvUu1Rz_-8",
+      "poster": "",
+      "tone": "cool",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "aguirre stare",
+          "width": 220
+        },
+        {
+          "label": "the andes descent",
+          "width": 320
+        },
+        {
+          "label": "the raft",
+          "width": 300
+        },
+        {
+          "label": "conquistadors",
+          "width": 260
+        },
+        {
+          "label": "amazon current",
+          "width": 300
+        },
+        {
+          "label": "the cannon",
+          "width": 190
+        },
+        {
+          "label": "flores portrait",
+          "width": 200
+        },
+        {
+          "label": "jungle arrows",
+          "width": 300
+        },
+        {
+          "label": "the monkeys",
+          "width": 240
+        },
+        {
+          "label": "drifting downriver",
+          "width": 300
+        }
+      ]
+    }
+  ]
+}
