@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: bootlegpirates/bootleg-pirates
+  branch: main
+  base_url: https://sveltia-cms-auth.<your-subdomain>.workers.dev   # same worker as cptnkid
+
+media_folder: images
+public_folder: /images
+
+collections:
+  - name: homepage
+    label: Homepage
+    files:
+      - name: settings
+        label: YouTube video
+        file: content/home.json
+        fields:
+          - label: YouTube video
+            name: youtubeUrl
+            widget: string
+            hint: Paste the full YouTube watch URL or just the video ID
+
+      - name: posts
+        label: Homepage posts
+        file: content/posts.json
+        fields:
+          - label: Posts
+            name: items
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image, required: false }
+              - { label: Link, name: link, widget: string, required: false }
+              - { label: Date, name: date, widget: datetime, required: false }
+              - { label: Text, name: body, widget: markdown, required: false }
+
+  - name: random
+    label: Random posts
+    files:
+      - name: items
+        label: Random posts
+        file: content/random.json
+        fields:
+          - label: Posts
+            name: items
+            widget: list
+            summary: '{{fields.caption}}'
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Caption, name: caption, widget: string, required: false }
+              - { label: Link, name: link, widget: string, required: false }
