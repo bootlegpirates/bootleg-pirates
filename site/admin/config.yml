@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: bootlegpirates/bootleg-pirates
+  branch: main
+  base_url: https://<your-worker>.workers.dev   # your Sveltia OAuth proxy
+
+media_folder: site/images
+public_folder: /images
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: site/content/home.json
+        label: Home
+        name: home
+        fields:
+          - { label: Title, name: title, widget: string }
+          # …the fields you want editable
