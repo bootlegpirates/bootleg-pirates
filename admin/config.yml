@@ -2,7 +2,6 @@ backend:
   name: github
   repo: bootlegpirates/bootleg-pirates
   branch: main
-  base_url: https://sveltia-cms-auth.<your-subdomain>.workers.dev   # same worker as cptnkid
 
 media_folder: images
 public_folder: /images
