@@ -11,41 +11,61 @@ collections:
     label: Homepage
     files:
       - name: settings
-        label: YouTube video
-        file: content/home.json
+        label: Header & live video
+        file: content/settings.json
         fields:
-          - label: YouTube video
-            name: youtubeUrl
-            widget: string
-            hint: Paste the full YouTube watch URL or just the video ID
+          - { label: Heading, name: heading, widget: string }
+          - { label: Marquee text, name: marquee, widget: text }
+          - { label: Live bar title, name: liveTitle, widget: string, required: false, hint: Text shown in the top LIVE bar }
+          - { label: Live YouTube URL, name: liveYoutube, widget: string, required: false, hint: Full YouTube watch URL or video ID }
 
       - name: posts
-        label: Homepage posts
+        label: Film posts
         file: content/posts.json
         fields:
-          - label: Posts
-            name: items
+          - label: Films
+            name: projects
             widget: list
-            summary: '{{fields.title}}'
+            summary: '{{fields.title}} ({{fields.year}})'
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Image, name: image, widget: image, required: false }
-              - { label: Link, name: link, widget: string, required: false }
-              - { label: Date, name: date, widget: datetime, required: false }
-              - { label: Text, name: body, widget: markdown, required: false }
+              - { label: Type, name: type, widget: select, options: [Movie, Anime, Documentary], default: Movie }
+              - { label: Director, name: director, widget: string, required: false }
+              - { label: Studio / distributor, name: client, widget: string, required: false }
+              - { label: Year, name: year, widget: number, value_type: int, required: false }
+              - { label: Star rating (0-5), name: rating, widget: number, value_type: float, min: 0, max: 5, step: 0.5, required: false }
+              - { label: Rotten Tomatoes, name: rt, widget: string, required: false, hint: 'e.g. 92%' }
+              - { label: Letterboxd, name: lb, widget: string, required: false, hint: 'e.g. 4.1 / 5' }
+              - { label: Duration, name: duration, widget: string, required: false, hint: 'e.g. 2h 15m' }
+              - { label: Release date, name: released, widget: string, required: false }
+              - { label: Synopsis, name: synopsis, widget: text, required: false }
+              - { label: Trailer URL, name: trailer, widget: string, required: false, hint: YouTube watch URL }
+              - { label: Poster, name: poster, widget: image, required: false, hint: 'Optional. If empty, the first gallery image (or a striped placeholder) is used' }
+              - { label: Card tone, name: tone, widget: select, options: [cool, warm], default: cool }
+              - { label: Row height, name: rowHeight, widget: number, value_type: int, default: 210, required: false, hint: Pixel height of this film's image row }
+              - label: Gallery images
+                name: images
+                widget: list
+                required: false
+                summary: '{{fields.label}}'
+                fields:
+                  - { label: Label, name: label, widget: string, hint: Alt / caption text }
+                  - { label: Width, name: width, widget: number, value_type: int, default: 260, hint: Display width in px }
+                  - { label: Image, name: image, widget: image, required: false }
+                  - { label: Focus point, name: position, widget: string, required: false, hint: 'CSS object-position, e.g. center 30%' }
 
   - name: random
-    label: Random posts
+    label: Random page
     files:
       - name: items
-        label: Random posts
+        label: Random tiles
         file: content/random.json
         fields:
-          - label: Posts
-            name: items
+          - label: Tiles
+            name: links
             widget: list
-            summary: '{{fields.caption}}'
+            summary: '{{fields.url}}'
             fields:
-              - { label: Image, name: image, widget: image }
-              - { label: Caption, name: caption, widget: string, required: false }
-              - { label: Link, name: link, widget: string, required: false }
+              - { label: Link URL, name: url, widget: string, hint: Instagram or other post URL }
+              - { label: Kind, name: kind, widget: select, options: [image, video], default: image }
+              - { label: Thumbnail, name: thumb, widget: image }
