@@ -1,11 +1,74 @@
 {
   "projects": [
     {
+      "title": "I Am Not Your Negro",
+      "type": "Documentary",
+      "director": "Raoul Peck",
+      "client": "",
+      "year": 2016,
+      "rating": 4.5,
+      "rt": "99%",
+      "lb": "4.2",
+      "duration": "93 mins",
+      "released": "2016",
+      "synopsis": "In 1979, James Baldwin wrote a letter to his literary agent describing his next project, \"Remember This House.\" The book was to be a revolutionary, personal account of the lives and assassinations of three of his close friends: Medgar Evers, Malcolm X and Martin Luther King, Jr. At the time of Baldwin's death in 1987, he left behind only 30 completed pages of this manuscript. Filmmaker Raoul Peck envisions the book James Baldwin never finished.",
+      "trailer": "https://www.youtube.com/watch?v=rNUYdgIyaPM&source_ve_path=OTY3MTQ&embeds_referring_euri=https%3A%2F%2Fletterboxd.com%2F",
+      "poster": "/images/331_IAMNOTYOURNW0128014_BAN1_2424_NEWTV_HD.jpg",
+      "tone": "cool",
+      "rowHeight": 210,
+      "images": [
+        {
+          "label": "Sad",
+          "width": 260,
+          "image": "/images/download.jpeg",
+          "position": ""
+        },
+        {
+          "label": "Happy",
+          "width": 260,
+          "image": "/images/i_am_not_your_negro_10000268_st_1_s-high.jpg",
+          "position": ""
+        },
+        {
+          "label": "kevin garnett in the store",
+          "width": 285
+        },
+        {
+          "label": "jewelry counter",
+          "width": 300
+        },
+        {
+          "label": "julia neon apartment",
+          "width": 195
+        },
+        {
+          "label": "howard on the phone",
+          "width": 245
+        },
+        {
+          "label": "the weeknd nightclub",
+          "width": 225
+        },
+        {
+          "label": "celtics playoff game",
+          "width": 300
+        },
+        {
+          "label": "howard & garnett handshake",
+          "width": 255
+        },
+        {
+          "label": "the mantrap door",
+          "width": 175
+        }
+      ]
+    },
+    {
       "title": "Uncut Gems",
-      "client": "A24 / Netflix",
-      "director": "Josh & Benny Safdie",
-      "year": 2019,
       "type": "Movie",
+      "director": "Josh & Benny Safdie",
+      "client": "A24 / Netflix",
+      "year": 2019,
       "rating": 4.5,
       "rt": "92%",
       "lb": "4.1 / 5",
@@ -61,10 +124,10 @@
     },
     {
       "title": "Fitzcarraldo",
-      "client": "Werner Herzog Filmproduktion",
-      "director": "Werner Herzog",
-      "year": 1982,
       "type": "Movie",
+      "director": "Werner Herzog",
+      "client": "Werner Herzog Filmproduktion",
+      "year": 1982,
       "rating": 4.5,
       "rt": "95%",
       "lb": "4.2 / 5",
@@ -120,10 +183,10 @@
     },
     {
       "title": "Akira",
-      "client": "Tokyo Movie Shinsha",
-      "director": "Katsuhiro Otomo",
-      "year": 1988,
       "type": "Anime",
+      "director": "Katsuhiro Otomo",
+      "client": "Tokyo Movie Shinsha",
+      "year": 1988,
       "rating": 5,
       "rt": "90%",
       "lb": "4.3 / 5",
@@ -179,10 +242,10 @@
     },
     {
       "title": "Ping Pong the Animation",
-      "client": "Tatsunoko Production",
-      "director": "Masaaki Yuasa",
-      "year": 2014,
       "type": "Anime",
+      "director": "Masaaki Yuasa",
+      "client": "Tatsunoko Production",
+      "year": 2014,
       "rating": 4,
       "rt": "100%",
       "lb": "4.4 / 5",
@@ -238,10 +301,10 @@
     },
     {
       "title": "The Holy Mountain",
-      "client": "Producciones Panicas",
-      "director": "Alejandro Jodorowsky",
-      "year": 1973,
       "type": "Movie",
+      "director": "Alejandro Jodorowsky",
+      "client": "Producciones Panicas",
+      "year": 1973,
       "rating": 3.5,
       "rt": "86%",
       "lb": "4.1 / 5",
@@ -297,10 +360,10 @@
     },
     {
       "title": "Doomed Megalopolis",
-      "client": "Toei Animation",
-      "director": "Rintaro",
-      "year": 1991,
       "type": "Anime",
+      "director": "Rintaro",
+      "client": "Toei Animation",
+      "year": 1991,
       "rating": 2.5,
       "rt": "78%",
       "lb": "3.6 / 5",
@@ -356,10 +419,10 @@
     },
     {
       "title": "Antichrist",
-      "client": "Zentropa",
-      "director": "Lars von Trier",
-      "year": 2009,
       "type": "Movie",
+      "director": "Lars von Trier",
+      "client": "Zentropa",
+      "year": 2009,
       "rating": 3,
       "rt": "49%",
       "lb": "3.5 / 5",
@@ -415,10 +478,10 @@
     },
     {
       "title": "Perfect Blue",
-      "client": "Madhouse",
-      "director": "Satoshi Kon",
-      "year": 1997,
       "type": "Anime",
+      "director": "Satoshi Kon",
+      "client": "Madhouse",
+      "year": 1997,
       "rating": 4.5,
       "rt": "84%",
       "lb": "4.3 / 5",
@@ -474,10 +537,10 @@
     },
     {
       "title": "Stalker",
-      "client": "Mosfilm",
-      "director": "Andrei Tarkovsky",
-      "year": 1979,
       "type": "Movie",
+      "director": "Andrei Tarkovsky",
+      "client": "Mosfilm",
+      "year": 1979,
       "rating": 5,
       "rt": "100%",
       "lb": "4.5 / 5",
@@ -533,10 +596,10 @@
     },
     {
       "title": "Come and See",
-      "client": "Mosfilm",
-      "director": "Elem Klimov",
-      "year": 1985,
       "type": "Movie",
+      "director": "Elem Klimov",
+      "client": "Mosfilm",
+      "year": 1985,
       "rating": 5,
       "rt": "96%",
       "lb": "4.5 / 5",
@@ -592,10 +655,10 @@
     },
     {
       "title": "Tampopo",
-      "client": "Itami Productions",
-      "director": "Juzo Itami",
-      "year": 1985,
       "type": "Movie",
+      "director": "Juzo Itami",
+      "client": "Itami Productions",
+      "year": 1985,
       "rating": 4,
       "rt": "100%",
       "lb": "4.2 / 5",
@@ -651,10 +714,10 @@
     },
     {
       "title": "Paprika",
-      "client": "Madhouse",
-      "director": "Satoshi Kon",
-      "year": 2006,
       "type": "Anime",
+      "director": "Satoshi Kon",
+      "client": "Madhouse",
+      "year": 2006,
       "rating": 4.5,
       "rt": "84%",
       "lb": "4.1 / 5",
@@ -710,10 +773,10 @@
     },
     {
       "title": "Suspiria",
-      "client": "Seda Spettacoli",
-      "director": "Dario Argento",
-      "year": 1977,
       "type": "Movie",
+      "director": "Dario Argento",
+      "client": "Seda Spettacoli",
+      "year": 1977,
       "rating": 3.5,
       "rt": "94%",
       "lb": "3.9 / 5",
@@ -769,10 +832,10 @@
     },
     {
       "title": "Belladonna of Sadness",
-      "client": "Mushi Production",
-      "director": "Eiichi Yamamoto",
-      "year": 1973,
       "type": "Anime",
+      "director": "Eiichi Yamamoto",
+      "client": "Mushi Production",
+      "year": 1973,
       "rating": 1.5,
       "rt": "75%",
       "lb": "3.8 / 5",
@@ -828,10 +891,10 @@
     },
     {
       "title": "Aguirre, the Wrath of God",
-      "client": "Werner Herzog Filmproduktion",
-      "director": "Werner Herzog",
-      "year": 1972,
       "type": "Movie",
+      "director": "Werner Herzog",
+      "client": "Werner Herzog Filmproduktion",
+      "year": 1972,
       "rating": 4,
       "rt": "97%",
       "lb": "4.2 / 5",
