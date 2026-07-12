@@ -37,22 +37,12 @@ collections:
               - { label: Rotten Tomatoes, name: rt, widget: string, required: false, hint: 'e.g. 92%' }
               - { label: Letterboxd, name: lb, widget: string, required: false, hint: 'e.g. 4.1 / 5' }
               - { label: Duration, name: duration, widget: string, required: false, hint: 'e.g. 2h 15m' }
-              - { label: Release date, name: released, widget: string, required: false }
               - { label: Synopsis, name: synopsis, widget: text, required: false }
               - { label: Trailer URL, name: trailer, widget: string, required: false, hint: YouTube watch URL }
               - { label: Poster, name: poster, widget: image, required: false, hint: 'Optional. If empty, the first gallery image (or a striped placeholder) is used' }
               - { label: Card tone, name: tone, widget: select, options: [cool, warm], default: cool }
               - { label: Row height, name: rowHeight, widget: number, value_type: int, default: 210, required: false, hint: Pixel height of this film's image row }
-              - label: Gallery images
-                name: images
-                widget: list
-                required: false
-                summary: '{{fields.label}}'
-                fields:
-                  - { label: Label, name: label, widget: string, hint: Alt / caption text }
-                  - { label: Width, name: width, widget: number, value_type: int, default: 260, hint: Display width in px }
-                  - { label: Image, name: image, widget: image, required: false }
-                  - { label: Focus point, name: position, widget: string, required: false, hint: 'CSS object-position, e.g. center 30%' }
+              - { label: Gallery images, name: images, widget: image, required: false, multiple: true, hint: 'Select several at once. Each image shows at the row height, with its width set automatically from the image.' }
 
   - name: random
     label: Random page
