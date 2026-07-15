@@ -1,6 +1,11 @@
 {
   "links": [
     {
+      "url": "https://www.instagram.com/p/DVeJlXKDAJw",
+      "kind": "image",
+      "thumb": "/images/Screenshot 2026-07-15 at 22.31.46.png"
+    },
+    {
       "url": "https://www.instagram.com/p/DadgPJtBD3-",
       "kind": "video",
       "thumb": "/images/Screenshot 2026-07-13 at 22.27.04.png"
@@ -9,11 +14,6 @@
       "url": "https://www.instagram.com/p/DakdzwdDL6W",
       "kind": "video",
       "thumb": "/images/Screenshot 2026-07-13 at 22.27.35.png"
-    },
-    {
-      "url": "https://www.instagram.com/p/DVeJlXKDAJw",
-      "kind": "image",
-      "thumb": "/images/Screenshot 2026-07-15 at 22.31.46.png"
     }
   ]
 }
