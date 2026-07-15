@@ -1,10 +1,11 @@
 name: Keep live content patch
 
 # Auto-repairs a raw Claude Design export on every push to index.html so it
-# behaves like the production site. Three idempotent fixes:
+# behaves like the production site. Idempotent fixes:
 #   A. load posts/random/settings live from /content/ (not the baked snapshot)
 #   B. remove the static "cptnkid" splash shown before the app mounts
 #   C. render the meta bubbles on every film row (not just the first)
+#   D. arrow-key navigation on the Random page (Left/Right = prev/next, Esc = close)
 # Does nothing if the file is already correct, so it never loops.
 
 on:
@@ -61,7 +62,7 @@ jobs:
           else:
               print("::warning::thumbnail splash shape unexpected - skipped")
 
-          # FIX C: render meta bubbles on every film row (drop first-row-only gate)
+          # FIXES C+D live inside the compressed React blob (one decompress / recompress)
           def get(tag):
               return re.search(r'(<script type="%s">)(.*?)(</script>)' % re.escape(tag), html, re.S)
           mm, tm = get("__bundler/manifest"), get("__bundler/template")
@@ -71,23 +72,50 @@ jobs:
               if bm and bm.group(1) in manifest:
                   e = manifest[bm.group(1)]; raw = base64.b64decode(e["data"])
                   src = (gzip.decompress(raw) if e.get("compressed") else raw).decode("utf-8")
+                  blob_changed = False
+
+                  # C: meta bubbles on every film row (drop first-row-only gate)
                   if "{isFirst && (" in src:
-                      src = src.replace("{isFirst && (", "{true && (", 1)
+                      src = src.replace("{isFirst && (", "{true && (", 1); blob_changed = True
+                      print("Applied: meta bubbles on all rows")
+                  else:
+                      print("meta-bubbles gate already absent")
+
+                  # D: arrow-key navigation on the Random page
+                  if '"keydown", this._onKey' not in src:
+                      a1 = '    window.addEventListener("message", this._igMsg);\n'
+                      if src.count(a1) == 1:
+                          add1 = ('    this._onKey = (e) => {\n'
+                                  '      if (this.state.view !== "random" || this.state.randomSel == null) return;\n'
+                                  '      if (e.key === "ArrowLeft") { e.preventDefault(); this.prevTile(); }\n'
+                                  '      else if (e.key === "ArrowRight") { e.preventDefault(); this.nextTile(); }\n'
+                                  '      else if (e.key === "Escape") { e.preventDefault(); this.closeRandom(); }\n'
+                                  '    };\n'
+                                  '    window.addEventListener("keydown", this._onKey);\n')
+                          src = src.replace(a1, a1 + add1, 1); blob_changed = True
+                          a2 = '    if (this._igMsg) window.removeEventListener("message", this._igMsg);\n'
+                          if src.count(a2) == 1:
+                              src = src.replace(a2, a2 + '    if (this._onKey) window.removeEventListener("keydown", this._onKey);\n', 1)
+                          print("Applied: arrow-key navigation")
+                      else:
+                          print(f"::warning::keydown anchor x{src.count(a1)} (expected 1) - skipped arrow-key nav")
+                  else:
+                      print("arrow-key navigation already present")
+
+                  if blob_changed:
                       nb = src.encode("utf-8")
                       if e.get("compressed"): nb = gzip.compress(nb, mtime=0)
                       e["data"] = base64.b64encode(nb).decode("ascii")
                       nmj = json.dumps(manifest, separators=(",", ":"))
                       if "</script>" in nmj:
-                          print("::error::manifest reserialize unsafe - skipped bubbles fix")
+                          print("::error::manifest reserialize unsafe - blob fixes reverted")
                       else:
                           html = html[:mm.start()] + mm.group(1) + nmj + mm.group(3) + html[mm.end():]
-                          changed = True; print("Applied: meta bubbles on all rows")
-                  else:
-                      print("meta-bubbles gate already absent")
+                          changed = True
               else:
-                  print("::warning::babel blob not locatable - skipped bubbles fix")
+                  print("::warning::babel blob not locatable - skipped blob fixes")
           else:
-              print("::warning::manifest/template not found - skipped bubbles fix")
+              print("::warning::manifest/template not found - skipped blob fixes")
 
           if changed:
               open(PATH, "w", encoding="utf-8").write(html); print("index.html updated.")
