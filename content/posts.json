@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "title": "Calvaire",
+      "type": "Movie",
+      "director": "Fabrice Du Welz",
+      "client": "",
+      "year": 2004,
+      "rating": 3,
+      "rt": "47%",
+      "lb": "3.1",
+      "duration": "88 min",
+      "synopsis": "A few days before Christmas, traveling entertainer Marc Stevens is stuck at nightfall in a remote wood in the swampy Hautes Fagnes region of Liège when his van breaks down. An odd chap who’s looking for a lost dog then leads Marc to a shuttered inn.",
+      "trailer": "https://www.youtube.com/watch?v=GGJ5U3iQSKo",
+      "poster": "/images/calvaire-1000x563.jpg",
+      "tone": "cool",
+      "rowHeight": 210,
+      "images": [
+        "/images/maxresdefault.jpg",
+        "/images/images.jpeg",
+        "/images/wiVg6TlmQcYyja0bTsmwvVWkd8o.webp",
+        "/images/969YfPvSEP16jwDhWKCVpJldlYo.webp"
+      ]
+    },
+    {
       "title": "I Am Not Your Negro",
       "type": "Documentary",
       "director": "Raoul Peck",
